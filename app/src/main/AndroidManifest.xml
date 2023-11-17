@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/ic_back"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MusixMixHub"
+        tools:targetApi="31">
+        <activity
+            android:name=".HiphopActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RnBActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PopActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RockActivity"
+            android:exported="false" />
+        <activity
+            android:name=".JazzActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AfroBeats"
+            android:exported="false" />
+        <activity
+            android:name=".DanceHallActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegaeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RhumbaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BongoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GospelsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DashboardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
